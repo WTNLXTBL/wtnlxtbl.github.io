@@ -1,5 +1,8 @@
 ---
 title: 在Termux启动前添加指纹识别
+date: 2023-8-15
+categories:
+    - Termux-topic
 tags:
     - Termux-topic
 ---

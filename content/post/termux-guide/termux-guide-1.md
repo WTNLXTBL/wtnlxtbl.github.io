@@ -1,5 +1,8 @@
 ---
 title: Termux基本使用指南
+date: 2023-8-15
+categories:
+    - Termux-topic
 tags:
     - Termux-topic
 ---
