@@ -14,7 +14,7 @@
         {{ end }}
 
         {{- $Generator := `<a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a>` -}}
-        {{- $Theme := printf `<b><a href="https://www.wtnl.eu.org/" target="_blank" rel="noopener" data-version="%s">Stack·Custom</a></b>` $ThemeVersion -}}
+        {{- $Theme := printf `<b><a href="https://www.wtnl.eu.org/" target="_blank" rel="noopener" data-version="%s">Stack · Custom</a></b>` $ThemeVersion -}}
         {{- $DesignedBy := `<a href="https://github.com/WTNLXTBL" target="_blank" rel="noopener">WTNLXTBL</a>` -}}
 
         {{ T "footer.builtWith" (dict "Generator" $Generator) | safeHTML }} <br />
