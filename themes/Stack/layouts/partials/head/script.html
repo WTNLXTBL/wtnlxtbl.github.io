@@ -1,2 +1,11 @@
 <script src="https://challenges.cloudflare.com/turnstile/v0/api.js?onload=onloadTurnstileCallback" defer></script>
-<script src="/turnstile.js"></script>
+<script>
+window.onloadTurnstileCallback = function () {
+    turnstile.render('#example-container', {
+        sitekey: '0x4AAAAAAAJ7s3uvgVPCFYag',
+        callback: function(token) {
+            console.log(`Challenge Success ${token}`);
+        },
+    });
+};
+</script>
