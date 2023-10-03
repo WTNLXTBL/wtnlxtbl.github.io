@@ -1,3 +1,7 @@
+---
+title: WordPress部署教程
+---
+
 # WordPress部署教程
 
 WordPress是一个流行的开源内容管理系统（CMS），用于创建和管理博客和网站。本教程将指导您如何在自己的Web服务器上部署WordPress。
